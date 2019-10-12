@@ -9,7 +9,6 @@ ScriptsOnlyBuild:
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
-    - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
@@ -24,8 +23,10 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   sceneClasses:
     Assets/Calculators/Standard Calculator.unity:
     - Class: 1
@@ -51,9 +52,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13724}
     - Class: 114
+      Script: {instanceID: 13930}
+    - Class: 114
       Script: {instanceID: 14336}
     - Class: 114
-      Script: {instanceID: 14356}
+      Script: {instanceID: 14712}
     - Class: 114
       Script: {instanceID: 14932}
     - Class: 114
@@ -71,6 +74,10 @@ ScriptsOnlyBuild:
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
