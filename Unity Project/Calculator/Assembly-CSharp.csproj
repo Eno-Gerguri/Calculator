@@ -63,7 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Display_Text_Handler.cs" />
+    <Compile Include="Assets\Scripts\Standard_Caclulator_Script.cs" />
     <None Include="Assets\Fonts\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Fonts\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

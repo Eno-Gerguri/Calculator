@@ -360,11 +360,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 160768106}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 160768108}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -925,7 +925,7 @@ GameObject:
   - component: {fileID: 174402662}
   m_Layer: 5
   m_Name: Add Button
-  m_TagString: Untagged
+  m_TagString: Addition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,7 +994,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Math_Symbol_Click
+        m_MethodName: ChooseOperation
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 174402660}
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 280931369}
   m_Layer: 5
   m_Name: Divide Button
-  m_TagString: Untagged
+  m_TagString: Division
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1123,7 +1123,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Math_Symbol_Click
+        m_MethodName: ChooseOperation
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 280931367}
@@ -1338,11 +1338,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 402713593}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 402713595}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1467,11 +1467,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1279101849}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 1279101851}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2092,7 +2092,7 @@ GameObject:
   - component: {fileID: 623738987}
   m_Layer: 5
   m_Name: Multiply Button
-  m_TagString: Untagged
+  m_TagString: Multiplication
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2161,7 +2161,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Math_Symbol_Click
+        m_MethodName: ChooseOperation
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 623738985}
@@ -2445,7 +2445,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 767130572}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787913929}
+        m_MethodName: Divide_By_One
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &767130572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3162,11 +3173,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2018101934}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 2018101936}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3222,7 +3233,7 @@ GameObject:
   - component: {fileID: 901688643}
   m_Layer: 5
   m_Name: Minus Button
-  m_TagString: Untagged
+  m_TagString: Subtraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3291,7 +3302,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Math_Symbol_Click
+        m_MethodName: ChooseOperation
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 901688641}
@@ -3418,7 +3429,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 969283922}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787913929}
+        m_MethodName: Convert_Percentage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &969283922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3629,7 +3651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1046556826
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3647,8 +3669,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -245, y: -160}
-  m_SizeDelta: {x: 100, y: 75}
+  m_AnchoredPosition: {x: -157.5, y: -375}
+  m_SizeDelta: {x: 125, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046556827
 MonoBehaviour:
@@ -3692,7 +3714,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1046556828}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787913929}
+        m_MethodName: Negate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1046556828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3810,7 +3843,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1066159921}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787913929}
+        m_MethodName: Square_Root_Number
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1066159921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4038,7 +4082,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1122396007}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787913929}
+        m_MethodName: Clear
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1122396007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4158,11 +4213,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 56836810}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 56836812}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4837,11 +4892,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1408986969}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 1408986971}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5231,8 +5286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92.5, y: -375}
-  m_SizeDelta: {x: 255, y: 100}
+  m_AnchoredPosition: {x: -27.5, y: -375}
+  m_SizeDelta: {x: 125, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1474339431
 MonoBehaviour:
@@ -5278,11 +5333,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 144400599}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 144400601}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5407,7 +5462,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: equals_button_clicked
+        m_MethodName: Compute
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5536,11 +5591,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 151642343}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 151642345}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5663,7 +5718,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1606847882}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787913929}
+        m_MethodName: Append_Number
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1034217825}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1606847882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5867,7 +5933,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1742453019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787913929}
+        m_MethodName: Delete
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1742453019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6073,11 +6150,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 613159222}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 613159224}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6443,7 +6520,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1958130263}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787913929}
+        m_MethodName: Square_Number
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1958130263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6961,11 +7049,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 787913929}
-        m_MethodName: Number_Button_Click
+        m_MethodName: Append_Number
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 677947581}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 677947583}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
