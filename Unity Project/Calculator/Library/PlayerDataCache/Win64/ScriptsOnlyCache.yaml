@@ -1,7 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Display_Text_Handler
+    - Standard_Caclulator_Script
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -389,7 +389,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Display_Text_Handler
+    className: Standard_Caclulator_Script
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
@@ -519,4 +519,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Calculators/Standard Calculator.unity
-  playerPath: C:/Users/Eno/Downloads/Test_buid/Calculator.exe
+  playerPath: C:/Users/Eno/Desktop/GitHub Projects/Repositories/Calculator/PC, Mac
+    & Linux Standalone (64 bit)/Calculator.exe
